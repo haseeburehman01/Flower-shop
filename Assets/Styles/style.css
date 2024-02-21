@@ -5,17 +5,19 @@
     font-family: poppins;
 }
 
-body a {
-    text-decoration: none;
-    color: var(--pink);
-    font-size: 18px
-}
-
 :root {
     --pink: #e84393;
     --light-pink: #fd79a8;
     --text: #ffffff;
+    --light-blue: #6c5ce7;
 }
+
+body a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+}
+
 
 .nav-box {
     width: 100%;
@@ -36,4 +38,13 @@ body a {
 
 .nav-text a {
     margin: 20px;
+    /* color: var(--pink); */
+}
+
+.menu-bar i {
+    font-size: 30px;
+}
+
+.hero-section img {
+    width: 100%;
 }
