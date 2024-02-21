@@ -5,6 +5,12 @@
     font-family: poppins;
 }
 
+body a {
+    text-decoration: none;
+    color: var(--pink);
+    font-size: 18px
+}
+
 :root {
     --pink: #e84393;
     --light-pink: #fd79a8;
@@ -21,4 +27,13 @@
     font-size: 30px;
     color: var(--text);
     margin: 10px;
+    cursor: pointer;
+}
+
+.main-logo img {
+    width: 100px;
+}
+
+.nav-text a {
+    margin: 20px;
 }
