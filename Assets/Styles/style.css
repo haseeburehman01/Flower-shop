@@ -5,6 +5,10 @@
     font-family: poppins;
 }
 
+h2-font {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 :root {
     --pink: #e84393;
     --light-pink: #fd79a8;
@@ -14,37 +18,38 @@
 
 body a {
     text-decoration: none;
-    font-size: 18px;
-    color: #000;
+    font-size: 16px;
+    color: #b8b8b8;
 }
-
 
 .nav-box {
     width: 100%;
-    height: 60px;
+    height: 40px;
     background-color: var(--pink);
 }
 
-.nav-icon i {
-    font-size: 30px;
-    color: var(--text);
-    margin: 10px;
-    cursor: pointer;
-}
-
-.main-logo img {
-    width: 100px;
-}
-
-.nav-text a {
-    margin: 20px;
-    /* color: var(--pink); */
-}
-
-.menu-bar i {
-    font-size: 30px;
-}
-
-.hero-section img {
+.next-div {
     width: 100%;
+    height: 140px;
+    background-color: #000;
 }
+
+.nav-icon i {
+    color: #b8b8b8;
+    font-size: 20px;
+}
+
+.nav-text-two a:hover {
+    cursor: pointer;
+    color: var(--pink);
+    text-shadow: 2px 2px 5px var(--pink);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
